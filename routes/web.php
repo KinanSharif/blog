@@ -11,3 +11,8 @@
 |
 */
 
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/courses', 'PagesController@courses')->name('courses');
+
+
+
